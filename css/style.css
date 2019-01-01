@@ -1,0 +1,41 @@
+.container{
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+.parent {
+    min-height: 400px;
+    background-color: #ddd;
+    position: relative;
+}
+
+.sub_child {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.one {
+    background-color: #53CA3E;
+}
+.two {
+    background-color: #F27067;
+    top: 0;
+    right: 0;
+}
+.three {
+    background-color: #5420BF;
+    bottom: 0;
+    left: 0;
+}
+.four {
+    background-color: #0864C0;
+    bottom: 0;
+    right: 0;
+}
+.five{
+    background-color: #A6E22B;
+    left: 0;
+    right: 0;
+    margin: 150px auto;
+}
